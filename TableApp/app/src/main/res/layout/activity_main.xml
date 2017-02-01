@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:foreground="@drawable/math"
+    tools:context="com.example.shivanshu.tableapp.MainActivity">
+
+    <Button
+        android:id="@+id/table_button"
+        android:text="TABLES"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/square_button"
+        android:text="SQUARES"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/cube_button"
+        android:text="CUBES"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/setting_button"
+        android:text="SETTING"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shivanshu.paytmrecharge.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/prepaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prepaid"
+            android:onClick="radioFunction"
+            android:textColor="@color/textColorUnclick"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp" />
+
+        <RadioButton
+            android:id="@+id/postpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PostPaid"
+            android:checked="true"
+            android:textColor="@color/textColorOnclick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mobile number"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/prepaid"
+        />
+
+    <EditText
+
+        android:id="@+id/mobile_postpaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:onClick="radioFunction"
+        android:layout_below="@+id/prepaid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Operator"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:minLines="1"
+            />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Pay Bill"
+        android:layout_marginTop="57dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_below="@+id/mobile_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+</LinearLayout>

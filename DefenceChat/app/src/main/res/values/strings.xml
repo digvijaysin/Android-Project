@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DefenceChat</string>
+    <string name="Call">Call</string>
+    <string name="Chat">Chat</string>
+    <string name="Mission">Mission</string>
+
+</resources>

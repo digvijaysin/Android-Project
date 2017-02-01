@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bab3b3"
+    tools:context="com.example.shivanshu.defencechat.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+        <Button
+            android:id="@+id/call"
+            android:onClick="callFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Call"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColor"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/Chat"
+            android:onClick="callFunction"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Chat"
+            android:textColor="@color/textColor"
+
+            android:background="@color/selectedColor"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/Mission"
+            android:onClick="callFunction"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mission"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

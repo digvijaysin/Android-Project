@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivanshu.defencechat.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+        <Button
+            android:id="@+id/call"
+            android:onClick="callFunction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Call"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColor"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/Chat"
+            android:onClick="callFunction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Chat"
+            android:textColor="@color/textColor"
+
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/Mission"
+            android:onClick="callFunction"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Mission"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/image"
+            android:background="@drawable/contact_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priya Pandey"
+            android:textStyle="bold"
+
+            />
+        <ImageView
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calling_icon"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6e6060"
+    tools:context="com.example.shivanshu.tableapp.TableActivity">
+<TextView
+    android:id="@+id/table_heading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Table Of "
+    android:textSize="40sp"
+    android:background="#352c2c"
+    android:textColor="#ffffff"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/table_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivanshu.paytmopen.MainActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:background="@color/background"
+     android:layout_weight="2"
+     android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Your paytm Wallet is here!"
+         android:gravity="center"
+         android:paddingBottom="10dp"
+         android:paddingTop="10dp"
+         android:textColor="#ffffff"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <ImageView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/rupay"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+         <TextView
+             android:textSize="10sp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:background="@color/background"
+             android:textColor="#ffffff"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pay"/>
+         <TextView
+             android:textSize="10sp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:background="@color/background"
+             android:textColor="#ffffff"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Add Money"
+             />
+         <TextView
+             android:textSize="10sp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:background="@color/background"
+             android:textColor="#ffffff"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Passbook"/>
+         <TextView
+             android:textSize="10sp"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+             android:background="@color/background"
+             android:textColor="#ffffff"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Accept Payment"/>
+         
+     </LinearLayout>
+
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#ff0000"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#ff0f">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c6c4c4"></LinearLayout>
+</LinearLayout>
